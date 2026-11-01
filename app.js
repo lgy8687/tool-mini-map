@@ -7,7 +7,7 @@
 
   if ('serviceWorker' in navigator) {
     var cacheVersion = window.MINI_AMAP_VERSION || 'v1';
-    navigator.serviceWorker.register('/mini-amap/sw.js?v=' + encodeURIComponent(cacheVersion)).catch(function () {});
+    navigator.serviceWorker.register('/tool-mini-map/sw.js?v=' + encodeURIComponent(cacheVersion)).catch(function () {});
   }
 
   // ===== 状态 =====

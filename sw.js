@@ -2,13 +2,13 @@
  * Service Worker - PWA 离线缓存
  */
 
-const CACHE_NAME = 'mini-amap-v20';
+const CACHE_NAME = 'mini-amap-v21';
 const PRECACHE_URLS = [
-  '/mini-amap/index.html?v=1.4.2',
-  '/mini-amap/config.js?v=1.4.2',
-  '/mini-amap/style.css?v=1.4.2',
-  '/mini-amap/app.js?v=1.4.2',
-  '/mini-amap/manifest.json',
+  '/tool-mini-map/index.html?v=1.4.2',
+  '/tool-mini-map/config.js?v=1.4.2',
+  '/tool-mini-map/style.css?v=1.4.2',
+  '/tool-mini-map/app.js?v=1.4.2',
+  '/tool-mini-map/manifest.json',
 ];
 
 self.addEventListener('install', (event) => {
